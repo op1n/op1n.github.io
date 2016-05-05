@@ -101,7 +101,7 @@
 		var data_string = jQuery('#contact-form').serialize();
 
 		jQuery.ajax({
-			type: "POST",
+			dataType: "jsonp",
 			url: "http://getsimpleform.com/messages/ajax?form_api_token=7960a585e4580d2fe9c74ec56161e3ce",
 			data: {name:name,email:email,message:message},
 			timeout: 6000,
