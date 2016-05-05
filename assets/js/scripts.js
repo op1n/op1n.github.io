@@ -102,7 +102,7 @@
 
 		jQuery.ajax({
 			dataType: "jsonp",
-			url: "http://getsimpleform.com/messages/ajax?form_api_token=7960a585e4580d2fe9c74ec56161e3ce",
+			url: "http://getsimpleform.com/messages/ajax?form_api_token=bc63e1efee5888053b7259fe430a065d",
 			data: {name:name,email:email,message:message},
 			timeout: 6000,
 			error: function(request,error) {
