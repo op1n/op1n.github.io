@@ -1,0 +1,308 @@
+/*these styles are in addition to the base styles*/
+
+input{color:#1a1a1a;font-weight: normal;}
+input[type="text"]{ margin-bottom: 15px;height:40px;}
+textarea{height:120px; resize: none;}
+input[type="text"], textarea{padding:0.6em;width: 100%;outline: none;border: none;-webkit-border-radius:0px;box-shadow: none; color: #1a1a1a;}
+span.error,span.valid{position: absolute;top:0; right: 0;}
+span.error, span.valid{ width:34px;height:34px; background-position:center center;background-size:15px; background-repeat: no-repeat;}
+span.error{background-image:url("/assets/img/notifications/error.svg");}
+span.valid{background-image:url("/assets/img/notifications/valid.svg");}
+
+.alert{display:none; border: 0; background-color:#e74c3c; color: white;}
+.alert-success{background-color:#22b573; color: white;}
+
+#cta02 h2 {
+line-height: 34px;
+}
+
+.navbar-brand img{
+	width: 83px;
+	margin-top: 0.45em;
+	margin-left: 15px;
+}
+
+#headerwrap-2 img{
+	width:89%;
+	margin:auto;
+}
+
+.opacity{
+  opacity: 1;
+
+}
+
+.opacity:hover{
+	opacity: .5;
+
+  	transition: opacity .4s ease-out;
+  	-moz-transition: opacity .4s ease-out;
+  	-webkit-transition: opacity .4s ease-out;
+  	-o-transition: opacity .4s ease-out;
+}
+
+
+/* Button Theme */
+.btn-theme {
+  background-color:#ffffff !important;
+}
+
+.btn-theme {
+  color: #000000 !important;
+  background-color: transparent !important;
+  border-color: #000000 !important;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-color: #000000 !important;
+}
+
+
+.sub-brand img{
+	margin:auto;
+}
+.panel-heading {
+  padding: 0px 0px;
+  border-bottom: 0px solid transparent;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.panel-title > a {
+  color: inherit;
+}
+
+.panel-footer {
+  padding: 0px 0px;
+  background-color: #f5f5f5;
+  border-top: 0px solid #dddddd;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+/*#cta-bar {
+
+	color: white;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+
+    -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+    transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+#cta-bar:before,
+#cta-bar:after {
+    -webkit-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -o-transition: color 0.2s ease-in, background 0.2s ease-in;
+    transition: color 0.2s ease-in, background 0.2s ease-in;
+
+    cursor: pointer;
+}*/
+
+#cta-bar h1 {
+	color: white;
+	font-weight: 400;
+}
+
+#cta-bar p, h4 {
+
+	color: #333333 !important;
+	font-weight: 400;
+}
+
+#cta-busey {
+	background-image: url(../img/garybusey.jpg);
+	background-repeat:no-repeat;
+	background-size: auto 700px;
+	margin-top: 0px;
+	padding-top:140px;
+	background-position:right -80px;
+	text-align:left;
+	height: 500px;
+	width: 100%;
+	background-color:#fff;
+
+
+}
+
+#cta-busey h1 {
+	font-size: 90px;
+	font-weight: 700;
+	margin: 0 0 25px 0;
+	line-height: 50px;
+}
+
+
+
+.panel-heading .centered {
+    text-align: center;
+		padding-top:26px;
+		padding-bottom:32px;
+}
+
+
+
+.panel-group .panel {
+  margin-bottom: 0;
+  overflow: hidden;
+  border-radius: 0px;
+	background-color: #f2f2f2;
+}
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 0px solid #dddddd;
+}
+
+.panel-group .panel-footer {
+  border-top: 0;
+}
+
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 0px solid #dddddd;
+}
+
+.panel-default {
+  border-color: #dddddd;
+	border:none;
+}
+
+.panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+	border:none;
+}
+
+#f h4 {
+	color: white !important;
+}
+
+#f {
+	background-color: #1b1b1b;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.bottom-right img {
+display: block;
+height: auto;
+max-width: 54%;
+/*padding-top: 68px;*/
+margin: auto;
+}
+
+
+.little-logo .img-responsive {
+  display: block;
+  height: auto;
+  max-width: 50px;
+}
+
+.team-info {
+z-index: 1;
+}
+.team-info a{
+	color:#fff;
+}
+.team-info a:hover{
+	color:#fff;
+}
+
+/*responsive styles*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#headerwrap-2 img{
+		width:71%;
+	}
+}
+
+@media (min-width: 689px) and (max-width: 1199px) {
+
+.row mt centered sub-brand img{
+			width:71%;
+		}
+
+}
+@media (max-width: 991px){
+	.greyscale{
+		-webkit-filter: grayscale(0%);
+		filter: none;
+	}
+	#cta-busey h1{
+	color: inherit;
+	font-size: 60px;
+	line-height: 30px;
+	margin: 0 0 15px 0;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.team-info {
+	bottom: 0px !important;
+	width: 120px !important;
+	padding: 10px 10px 0 10px !important;
+	}
+	.team-info p{
+		margin-bottom:15px !important;
+	}
+
+#cta-busey {
+	color:white;
+	position:relative;
+	background-size:110% auto;
+}
+
+#cta-busey .container{
+	background-color:rgba(0,0,0,.5);
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+
+#cta-busey h1{
+	color: inherit;
+	font-size: 35px;
+	line-height: 15px;
+	margin: 0 0 10px 0;
+}
+
+#cta-busey h4{
+	color:white !important;
+}
+
+#cta-busey .btn-theme{
+	color:white !important;
+	border-color:white !important;
+}
+#cta-busey .btn-theme:hover{
+	color:black !important;
+	border-color:white !important;
+}
+
+}

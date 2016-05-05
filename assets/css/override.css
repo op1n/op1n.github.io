@@ -1,0 +1,29 @@
+/*these styles override the base styles*/
+
+.form-group {
+position: relative;
+}
+
+.alert{
+	display:none;
+}
+
+.navbar-brand {
+	padding:0 !important;
+}
+
+#headerwrap-2 h1{
+	font-weight:normal !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	#headerwrap-2{
+		min-height: 470px !important;
+		/*padding-top:90px !important;*/
+	}
+	#cta02{
+		padding-top:50px !important;
+	}
+
+}
